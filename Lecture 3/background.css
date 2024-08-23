@@ -1,0 +1,28 @@
+.block{
+    color: red;
+    border: 2px solid black;
+    width: 400px;
+    height: 293px;
+    text-align: center; 
+    background-image: url(https://imgs.search.brave.com/A1g3HIVyF53pk_YrZz0qOisvTPAwV07XS1GJtghqV5c/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3ZpdGUvYXNz/ZXRzL3Bob3RvLUM4/cTBLUUhHLndlYnA);
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    
+}
+
+.para{
+    color: blue;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 7px black;
+    border: 2px solid black;
+    background-color: rgba(191, 0, 255, 0.282);
+    
+}
+
+body{
+    background:linear-gradient(black,aqua);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
