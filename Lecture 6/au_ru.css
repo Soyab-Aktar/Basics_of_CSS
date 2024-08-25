@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Parent {
+    background-color: yellow;
+    /* width: 400px; */
+    /* height: 500px; */
+    width: 50vw;
+    height: 50vh;
+}
+
+.Child {
+    font-size: 5em;
+    /* 1em=16px */
+    /* depent on parent */
+    background-color: mediumspringgreen;
+    width: 50%;
+    height: 50%;
+}
+
+body {
+    /* background: black; */
+    background: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
