@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background-color: moccasin;
+    border: 3px solid mediumspringgreen;
+    width: 100px;
+    height: 100px;
+    padding-left: 26px;
+    padding-top: 34px;
+}
+.box:hover{
+    background-color: rgb(128, 236, 118);
+    border: 3px solid rgb(233, 25, 39);
+    width: 120px;
+    height: 120px;
+    padding-left: 35px;
+    padding-top: 43px;
+    font-weight: bold;
+}
+.container{
+    overflow-y: scroll;
+    margin: auto;
+    border: 3px solid rgb(255, 255, 255);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* for main axis */
+    /* justify-content: start; */
+    /* justify-content: end; */
+    justify-content:space-evenly;
+    flex-direction:row;
+    align-items: center;
+   
+}
+
+
+body{
+    background: linear-gradient(black, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
